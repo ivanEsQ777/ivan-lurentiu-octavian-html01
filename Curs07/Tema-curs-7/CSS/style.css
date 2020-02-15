@@ -46,3 +46,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	color: #363636
+}
+
+.cart .cart-count {
+	color: white;
+	background: #FF6B6B;
+}
+
+.banner-main .container a {
+	color: #FF6B6B;
+}
+
+.product-pricing .product-price span {
+	color: #FF6B6B;
+}
+
+.container .content span {
+	font-weight: bold;
+}
+
+
+
