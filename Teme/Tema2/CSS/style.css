@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-image: url(/Teme/Tema2/images/background1.jpg);
 }
 ol, ul {
 	list-style: none;
@@ -48,17 +49,31 @@ table {
 }
 
 .header-top {
-  background-color: #000000;
+	background-color: #000000;
+}
+
+.header-contact a {
+	color: #E5E5E5;
 }
 
 .header-bottom {
-  background-color: #E5E5E5;
+	background-color: #E5E5E5;
 }
 
-.header-bottom li a {
-  color: #000000;
+.header-nav {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 500;
+	height: 50px;
 }
 
-.header-top a {
-  color: #E5E5E5;
+.header-nav li {
+	display: inline-block;
+  margin-left:  5px;
+	margin-right: 5px;
+	text-decoration: none;
 }
+
+
+
