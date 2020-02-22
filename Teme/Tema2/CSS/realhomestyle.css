@@ -28,6 +28,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+@font-face {
+	font-family: "exo-black";
+	src: url(/Teme/Tema2/fonts/exo-black-webfont.woff);
+	src: url(/Teme/Tema2/fonts/exo-black-webfont.woff2);
+	font-family: "exo-light";
+	src: url(/Teme/Tema2/fonts/exo-light-webfont.woff);
+	src: url(/Teme/Tema2/fonts/exo-light-webfont.woff2);
+}
+
 body {
 	line-height: 1;
 	background-image: url(/Teme/Tema2/images/background1.jpg);
@@ -60,6 +70,10 @@ table {
 	background-color: #E5E5E5;
 }
 
+.header-bottom li a {
+	color: #000000;
+}
+
 .header-nav {
 	position: absolute;
 	top: 15px;
@@ -74,6 +88,30 @@ table {
 	margin-right: 5px;
 	text-decoration: none;
 }
+
+.div-main {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+}
+
+.header-bottom h1 {
+	font-size: 32px;
+	font-family: exo-black;
+	;
+}
+
+.header-nav li a {
+	font-size: 21px;
+	font-family: exo-light;
+}
+
+
+
+
+
 
 
 
