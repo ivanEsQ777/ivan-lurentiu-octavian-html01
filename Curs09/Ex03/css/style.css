@@ -9,3 +9,15 @@
   float: left;
 }
 
+.orientation-right img {
+  float: right;
+}
+
+.orientation-left img {
+  table-layout: left;
+}
+
+.orientation-none img.float-left {
+  float: none;
+}
+
