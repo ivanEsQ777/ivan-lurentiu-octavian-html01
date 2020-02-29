@@ -1,8 +1,22 @@
+input[type="checkbox"] + label {
+  color: lightpink;
+}
+
 input[type="checkbox"]:checked + label {
   width: 100px;
   color: green;
 }
 
+input[type="radio"] + label {
+  background: lightpink;
+}
+
 input[type="radio"]:checked + label {
   background-color: lightgreen;
 }
+
+select option:checked {
+  font-weight: bold;
+  color: red;
+}
+
