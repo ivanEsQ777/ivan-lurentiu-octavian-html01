@@ -68,7 +68,7 @@ table {
   src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
        url('../fonts/roboto-regular-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: normal;../fonts/
+  font-style: normal;
 }
 
 .group:after {
@@ -143,6 +143,58 @@ body {
   background-color: #FF6B6B;
 }
 
+.banner-main {
+  background-image: url("../images/banners/group.jpg");
+  min-height: 572px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #000;
+  background-size: cover;
+}
+
+.banner-main .container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  min-height: inherit;
+  color: #fff;
+}
+
+.banner-main .banner-copy {
+  padding: 0 0 0 50px;
+}
+
+.banner-main .banner-copy h1 {
+  font-size: 75px;
+}
+
+.banner-main .banner-copy h2 {
+  font-size: 42px;
+}
+
+.banner-main .banner-cta {
+  text-align: center;
+  margin: 38px 0 0 0;
+}
+
+.banner-main .banner-cta a {
+  text-transform: uppercase;
+  display: inline-block;
+  
+  padding: 25px 40px;
+  text-decoration: none;
+  border: 1px solid #FF6B6B ;
+  border-radius: 35px;
+}
+
+.banner-main .banner-small-print {
+  position: absolute;
+  bottom: 25px;
+  left: 50px;
+  font-size: 14px;
+  color: #fff;
+}
+
 .banner-main .container a {
   color: #FF6B6B;
 }
@@ -150,4 +202,6 @@ body {
 .product-pricing .product-price span {
   color: #FF6B6B;
 }
+
+
 
