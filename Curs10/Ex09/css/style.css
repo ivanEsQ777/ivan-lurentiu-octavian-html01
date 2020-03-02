@@ -1,6 +1,16 @@
 /* add code here */
 
+#header h1 {
+  color: green;
+  text-decoration: underline;
+  padding: 5px;
+}
 
+#container .para {
+  font-size: 25px;
+  font-style: italic;
+  color: red;
+}
 
 /* add code here */
 
