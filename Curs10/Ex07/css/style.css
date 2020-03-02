@@ -38,14 +38,13 @@
 .my-second-list a::before {
   content: "";
   display: block;
-  width: 5px;
-  height: 5px;
-  background-color: red;
-  translate: rotate(45deg);
+  width: 4px;
+  height: 8px;
+  background-color: green;
   position: absolute;
-  top: 8px;
+  top: 7px;
   left: 3px;
-  border-radius: 90px;
+  border-radius: 2px/4px;
 }
 
 .my-second-list a::after {
@@ -54,7 +53,7 @@
   width: 5px;
   height: 5px;
   background: purple;
-  transform: skew(0, 15deg);
+  transform: rotate(45deg);
   position: absolute;
   top: 7px;
   right: 3px;
