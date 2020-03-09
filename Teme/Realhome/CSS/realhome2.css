@@ -68,7 +68,7 @@
 
 .header-bottom h1 {
   position: absolute;
-  left: 10px;
+  left: 145px;
   top: 34px;
   font-size: 32px;
   font-family: 'Exo';
@@ -155,7 +155,7 @@
   color: #707070;
   font-size: 24px;
   font-family: 'Nunito Sans';
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .catalog-preview {
@@ -223,6 +223,101 @@
   background-color: lightgray;
   margin-bottom: 22px;
 }
+
+.margin-div {
+  margin: 0 142px 0 142px;
+  font-family: 'Nunito Sans';
+}
+
+.properties-header h1 {
+  display: inline-block;
+  margin: 81px 0 0 0;
+  font-size: 36px;
+  font-weight: 600;
+  color: #707070;
+}
+
+.properties-header ul {
+  float: right;
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 89px;
+}
+
+.properties-header li {
+  display: inline;
+}
+
+.properties-header li a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 40px;
+  color: #707070;
+}
+
+.properties-header li:last-child a {
+  color: #46EADA;
+}
+
+.property-catalog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin-top: 64px;
+}
+
+.property-catalog .property-tile {
+  background-color: #F5F5F5;
+  margin-bottom: 19px;
+  border: 1px solid #F5F5F5;
+  border-radius: 8px;
+}
+
+.property-price {
+  display: inline-block;
+  position: relative;
+  margin: 18px 30px 0 19px;
+}
+
+.property-price p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.property-price span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.property-description {
+  float: right;
+  margin: 14px 155px 13px 22px;
+}
+
+.property-description h1 {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.property-description p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/*
+.property-description h1::before {
+  content: "";
+  display: block;
+  height: 60px;
+  width: 1px;
+  background-color: lightgray;
+  float: left;
+}
+*/
+
+
 
 
 
