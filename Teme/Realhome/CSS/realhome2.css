@@ -317,6 +317,74 @@
 }
 */
 
+.trusted-header h1 {
+  position: relative;
+  margin: 81px 0 65px 0;
+}
+
+.agent-catalog {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.agent-catalog .agent-tile {
+  width: 532px;
+  height: 900px;
+  background-color: #F5F5F5;
+  background-size: cover;
+}
+
+.agent-tile .agent-image {
+  text-align: center;
+  margin-top: 46px;
+}
+
+.agent-tile .agent-image .rounded-corners {
+  border-radius: 50%;
+  border: 15px solid white;
+}
+
+.agent-tile .agent-description h1, h2 {
+  text-align: center;
+}
+
+.agent-tile .agent-description h1 {
+  font-size: 36px;
+  font-weight: 600;
+  padding-top: 66px;
+}
+
+.agent-tile .agent-description h2 {
+  font-size: 32px;
+  font-weight: 300;
+  font-style: italic;
+  color: #B5B5B5;
+  padding: 13px 0 22px 0;
+}
+
+.agent-tile .agent-description p {
+  display: block;
+  margin: 0 49px 0 49px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.agent-catalog .agent-tile button {
+  width: 532px;
+  height: 93px;
+  background-color: #46EADA;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.agent-catalog .agent-tile button:hover {
+  cursor: pointer;
+}
+.agent-description p:nth-of-type(2) {
+  margin-top: 5px;
+}
+
 
 
 
