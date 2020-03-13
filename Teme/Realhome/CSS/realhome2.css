@@ -316,13 +316,13 @@ body {
 
 .agent-catalog {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .agent-catalog .agent-tile {
   background-color: #F5F5F5;
-  background-size: cover;
-  margin-bottom: 185px
+  margin-bottom: 185px;
+  margin-left: 10px;
 }
 
 .agent-tile .agent-image {
