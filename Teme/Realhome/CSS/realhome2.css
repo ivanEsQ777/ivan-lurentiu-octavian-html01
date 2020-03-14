@@ -336,6 +336,11 @@ body {
   border: 15px solid white;
 }
 
+
+.agent-catalog .agent-tile .agent-badge {
+  color: green;
+}
+
 .agent-tile .agent-description h1, h2 {
   text-align: center;
 }
@@ -579,6 +584,8 @@ body {
   text-decoration: none;
   color: lightgray;
 }
+
+
 
 
 
