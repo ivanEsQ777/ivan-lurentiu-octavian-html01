@@ -471,6 +471,7 @@ body {
 }
 
 .footer-container {
+  font-family: 'Nunito Sans';
   position: relative;
   top: 347px;
   margin-top: 222px;
@@ -479,14 +480,14 @@ body {
 
 .footer-container .left-container {
   float: left;
-  width: 60%;
+  width: 55%;
   height: 750px;
   background-color: #707070;
 }
 
 .footer-container .right-container {
   float: right;
-  width: 40%;
+  width: 45%;
   height: 750px;
   background-color: #707070;
 }
@@ -523,14 +524,17 @@ body {
 
 .footer-container .right-container h1 {
   float: right;
-  margin: 160px 410px 0 0;
+  margin: 160px 620px 0 0;
   color: #46EADA;
   font-size: 36px;
   font-weight: 600;
 }
 
 .footer-container .right-container input {
-  padding: 23px 110px 23px 33px;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 23px 115px 23px 33px;
   margin-top: 65px;
   font-size: 24px;
   font-weight: 400;
@@ -546,24 +550,34 @@ body {
   font-size: 21px;
   font-weight: 300;
   position: absolute;
-  margin-top: 65px;
+  margin: 65px 260px 0 0;
   height: 78px;
   padding: 0 15px;
 }
 
 .footer-container .right-container .footer-nav {
+  color: lightgray;
   float: right;
   margin: 260px 260px 0 0;
+  font-size: 16px;
+  font-weight: 300;
+  width: 465px;
 }
 
 .footer-container .right-container .footer-nav ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+.footer-container .right-container .footer-nav p {
+  text-align: center;
 }
 
 .footer-container .right-container .footer-nav ul a {
   text-decoration: none;
+  color: lightgray;
 }
 
 
