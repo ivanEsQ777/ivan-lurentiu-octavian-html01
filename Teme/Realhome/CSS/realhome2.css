@@ -368,6 +368,8 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin-top: 31px;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 .agent-catalog .agent-tile button:hover {
@@ -427,6 +429,41 @@ body {
   font-size: 24px;
   font-weight: 200;
 }
+
+.contact-div h1 {
+  position: relative;
+  top: 200px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.contact-div .form-div {
+  position: relative;
+  top: 250px;
+}
+
+.contact-div .form-div input {
+  height: 84px;
+  width: 520px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.contact-div .form-div textarea {
+  margin-top: 30px;
+}
+
+.contact-div .form-div button {
+  width: 256px;
+  height: 84px;
+  background-color: #46EADA;
+  border-radius: 7px;
+  margin-top: 30px;
+  position: absolute;
+  right: 25px;
+  top: 718px;
+}
+
 
 
 
