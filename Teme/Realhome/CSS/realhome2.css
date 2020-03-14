@@ -119,8 +119,9 @@ body {
   width: 80px;
   background-color: #46EADA;
   color: white;
-  border: 2px solid #46EADA;
-  border-radius: 3px;
+  border: 1px solid #46EADA;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .div-form .submit-button:hover {
@@ -434,10 +435,11 @@ body {
   position: relative;
   top: 200px;
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .contact-div .form-div {
+  display: block;
   position: relative;
   top: 250px;
 }
@@ -454,22 +456,115 @@ body {
 }
 
 .contact-div .form-div button {
+  display: block;
   width: 256px;
   height: 84px;
   background-color: #46EADA;
   border-radius: 7px;
-  margin-top: 30px;
+  margin: 30px 0 219px 0;
   position: absolute;
   right: 25px;
   top: 718px;
+  color: white;
+  font-size: 28px;
+  font-weight: 300;
 }
 
+.footer-container {
+  position: relative;
+  top: 347px;
+  margin-top: 222px;
+  color: white;
+}
 
+.footer-container .left-container {
+  float: left;
+  width: 60%;
+  height: 750px;
+  background-color: #707070;
+}
 
+.footer-container .right-container {
+  float: right;
+  width: 40%;
+  height: 750px;
+  background-color: #707070;
+}
 
+.footer-container .left-container h1 {
+  color: #46EADA;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 160px 0 0 142px;
+}
 
+.footer-container .left-container p:nth-of-type(1) {
+  width: 780px;
+  margin: 69px 0 0 142px;
+  font-size: 24px;
+  font-weight: 400;
+}
 
+.footer-container .left-container p:nth-of-type(2) {
+  margin: 30px 0 0 142px;
+  font-size: 24px;
+  font-weight: 400;
+  width: 385px;
+}
 
+.footer-container .left-container p:nth-of-type(3) {
+  position: relative;
+  top: -60px;
+  left: 690px;
+  font-size: 24px;
+  font-weight: 400;
+  width: 232px;
+}
+
+.footer-container .right-container h1 {
+  float: right;
+  margin: 160px 410px 0 0;
+  color: #46EADA;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.footer-container .right-container input {
+  padding: 23px 110px 23px 33px;
+  margin-top: 65px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #B5B5B5;
+}
+
+.footer-container .right-container button {
+  background-color: #46EADA;
+  color: white;
+  border: 1px solid #46EADA;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 21px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: 65px;
+  height: 78px;
+  padding: 0 15px;
+}
+
+.footer-container .right-container .footer-nav {
+  float: right;
+  margin: 260px 260px 0 0;
+}
+
+.footer-container .right-container .footer-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container .right-container .footer-nav ul a {
+  text-decoration: none;
+}
 
 
 
