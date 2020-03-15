@@ -296,6 +296,15 @@ body {
   font-weight: 700;
 }
 
+.property-catalog .property-tile .property-price .horizontal-line {
+  position: absolute;
+  background-color: darkgray;
+  width: 1px;
+  height: 60px;
+  top: -11px;
+  left: 85px;
+}
+
 .property-description {
   float: right;
   margin: 14px 155px 13px 22px;
