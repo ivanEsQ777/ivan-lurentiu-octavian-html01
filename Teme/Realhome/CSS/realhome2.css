@@ -76,8 +76,8 @@ body {
   top: 34px;
   font-size: 32px;
   font-family: 'Exo';
-  font-weight: 600;
-  color: #707070;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
 }
 
 .background {
@@ -131,10 +131,11 @@ body {
 .features-header h1 {
   display: inline-block;
   position: relative;
-  color: #707070;
+  color: rgb(51, 51, 51);
   font-family: 'Nunito Sans';
   margin: 80px 0 0 142px;
   font-size: 36px;
+  font-weight: 600;
 }
 
 .features-header ul {
@@ -157,7 +158,7 @@ body {
   display: inline-block;
   text-decoration: none;
   margin-left: 44px;
-  color: #707070;
+  color: rgb(51, 51, 51);
   font-size: 24px;
   font-family: 'Nunito Sans';
   font-weight: 400;
@@ -239,7 +240,7 @@ body {
   margin: 81px 0 0 0;
   font-size: 36px;
   font-weight: 600;
-  color: #707070;
+  color: rgb(51, 51, 51);
 }
 
 .properties-header ul {
@@ -257,7 +258,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   padding-left: 40px;
-  color: #707070;
+  color: rgb(51, 51, 51);
 }
 
 .properties-header li:last-child a {
@@ -269,7 +270,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-flow: row wrap;
-  margin-top: 64px;
+  margin: 64px 0 100px 0;
 }
 
 .property-catalog .property-tile {
@@ -313,6 +314,9 @@ body {
 .trusted-header h1 {
   position: relative;
   margin: 81px 0 65px 0;
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
 }
 
 .agent-catalog {
@@ -338,7 +342,21 @@ body {
 
 
 .agent-catalog .agent-tile .agent-badge {
-  color: green;
+  background: #46EADA;
+  color: white;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 19px 25px 19px 25px;
+}
+
+.agent-catalog .agent-tile .agent-badge {
+  font-size: 35px;
+  position: relative;
+  left: -90px;
+  top: -40px;
 }
 
 .agent-tile .agent-description h1, h2 {
@@ -400,6 +418,7 @@ body {
   top: 0;
   font-size: 36px;
   font-weight: 600;
+  color: rgb(51, 51, 51);
 }
 
 .news-container .news-header a {
@@ -409,7 +428,7 @@ body {
   text-decoration: none;
   font-size: 24px;
   font-weight: 400;
-  color: #707070;
+  color: rgb(51, 51, 51);
 }
 
 .news-main {
@@ -440,7 +459,9 @@ body {
   position: relative;
   top: 200px;
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 600;
+  font-family: 'Nunito Sans';
+  color: rgb(51, 51, 51);
 }
 
 .contact-div .form-div {
