@@ -122,7 +122,7 @@ body {
   padding: 18px;
   border-radius: 35px;
   transition: background-color 0.2s linear, 
-    color 0.2s linear;
+  color 0.2s linear;
 }
 
 .nav-main ul a:hover {
