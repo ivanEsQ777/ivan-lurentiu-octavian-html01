@@ -225,6 +225,7 @@ body {
   left: 50px;
   font-size: 14px;
   color: #fff;
+  text-align: end;
 }
 
 .content .header-content {
