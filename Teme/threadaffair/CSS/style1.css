@@ -178,7 +178,7 @@ body {
 
 .banner-main .banner-cta {
   text-align: center;
-  margin: 70px 65px 0 0;
+  margin: 90px 70px 0 0;
 }
 
 .banner-main .banner-cta a {
@@ -189,6 +189,12 @@ body {
   border: 1px solid #FF6B6B ;
   border-radius: 35px;
   color: #FF6B6B;
+  font-size: 20px;
+}
+
+.banner-main .banner-cta a:hover {
+  background-color: #FF6B6B;
+  color: white;
 }
 
 .banner-main .banner-small-print {
@@ -197,6 +203,7 @@ body {
   right: 76px;
   font-size: 14px;
   color: #fff;
+  text-align: end;
 }
 
 .content .header-content {
@@ -213,6 +220,167 @@ body {
   text-transform: uppercase;
   color: #000;
 }
+
+.catalog-preview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list {
+  margin-bottom: 95px;
+}
+
+.catalog-preview .product-tile {
+  width: 350px;
+}
+
+.product-tile .product-info, .product-pricing, .add-to-cart {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.product-tile .product-info h1 {
+  display: block;
+  position: relative;
+  font-size: 24px;
+}
+
+.product-tile .product-info h2 {
+position: relative;
+left: -50px;
+font-size: 18px;
+margin-top: 7px;
+font-weight: 300;
+}
+
+.catalog-preview .product-tile .product-image {
+  position: relative;
+}
+
+.catalog-preview .product-tile .product-badge {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.catalog-preview .product-tile .product-badge-text {
+  display: flex;
+  font-size: 22px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.catalog-preview .product-tile .product-info {
+  margin: 28px 0 14px 0;
+  width: 430px;
+}
+
+.catalog-preview .product-tile .product-info a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.product-info .black {
+  color: #000;
+  font-weight: bold;
+}
+
+.product-info .bold {
+  font-weight: bold;
+}
+
+.container .content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container .content h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.container .content h1 span {
+  color: #000;
+}
+
+.product-tile .product-pricing .product-price-regular {
+  text-decoration: line-through;
+}
+
+.catalog-preview .product-tile .product-price {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.catalog-preview .product-tile .product-price span {
+  color: #FF6B6B;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.catalog-preview .product-pricing {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.catalog-preview .product-pricing .product-price-regular {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.catalog-preview .product-tile .add-to-cart {
+  background-color: #FF6B6B;
+  border: 1px solid #FF6B6B;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 35px;
+  padding: 13px 34px;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+  left: 105px;
+  margin: 16px 0 110px 0;
+}
+
+.catalog-preview .product-tile .add-to-cart a {
+  color: white;
+  text-decoration: none;
+}
+
+.product-tile .product-badge {
+  width: 61px;
+  height: 61px;
+  background-color: #FF6B6B;
+  border-radius: 35px;
+  font-weight: 300;
+  color: white;
+}
+
+.catalog-preview .product-tile .percent {
+  font-size: 24px;
+}
+
+.catalog-preview .product-tile .gray {
+  background-color: #2F4766;
+}
+
+.container .content #wedding {
+  margin-top: 95px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
